@@ -5,7 +5,7 @@ import os
 
 # from dotenv import load_dotenv  #to interact with .env file
 # load_dotenv()                   #make .env variables as enviornment variable
-API_KEY=os.environ("API_KEY")    #able to load file
+API_KEY=st.secrets["API_KEY"]   #able to load file
 
 
 
