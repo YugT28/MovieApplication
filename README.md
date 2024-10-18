@@ -1,6 +1,7 @@
 # Project:Movie Application Using OMDB API
 #### Objective: Build a web application that utilizes the Open Movie Database (OMDB) API to display movie information.
 
+#### Project Link: https://movieapplication.streamlit.app/
 #### API: https://www.omdbapi.com/
 
 #### Task:
@@ -21,7 +22,8 @@ ____
 | Additional Data Source | &cross; |
 | Testing                | &cross; |
 
-
+____
+![Try.gif](Try.gif)
 ____
 #### Technology Used
 1. StreamLit Framework For Making UI
