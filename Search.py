@@ -4,9 +4,9 @@ import pandas as pd
 import os
 from pathlib import Path
 
-from dotenv import load_dotenv  #to interact with .env file
-load_dotenv()                   #make .env variables as enviornment variable
-API_KEY=os.getenv("API_KEY")    #able to load file
+# from dotenv import load_dotenv  #to interact with .env file
+# load_dotenv()                   #make .env variables as enviornment variable
+API_KEY=st.secrets["API_KEY"]    #able to load file
 
 showMovie_Path=Path.cwd()/'pages'/'showMovie.py'
 
@@ -60,6 +60,8 @@ if name:
 
             st.session_state['imdb'] = {'imdb': imdb}
             st.page_link(showMovie_Path, label=f'Goto {title} Page', icon='🗺️')
+            st.page_link('.pages/showMovie.py', label=f'Goto {title} Page', icon='🗺️')
+
         except Exception as e:
             st.error(e)
 

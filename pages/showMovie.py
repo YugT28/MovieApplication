@@ -3,10 +3,10 @@ import requests
 from annotated_text import annotated_text
 import os
 
-from dotenv import load_dotenv  #to interact with .env file
-load_dotenv()                   #make .env variables as enviornment variable
-API_KEY=os.getenv("API_KEY")    #able to load file
 
+# from dotenv import load_dotenv  #to interact with .env file
+# load_dotenv()                   #make .env variables as enviornment variable
+API_KEY=st.secrets["API_KEY"]    #able to load file
 
 
 
