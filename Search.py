@@ -3,8 +3,8 @@ import requests
 import pandas as pd
 import os
 
-from dotenv import load_dotenv  #to interact with .env file
-load_dotenv()                   #make .env variables as enviornment variable
+# from dotenv import load_dotenv  #to interact with .env file
+# load_dotenv()                   #make .env variables as enviornment variable
 API_KEY=st.secrets["API_KEY"]    #able to load file
 
 
