@@ -10,22 +10,23 @@
 ____
 #### Technical Details Check:
 
-| Technical Task              | Status   |
-|-----------------------------|----------|
-| Error Handeling             | &check;  |
-| Github Repo                 | &check;  |
-| README.md                   | &check;  |
-| Handel Sensitive Data       | &check;  |
-| Alternative Method For Data | &check;  |
+| Technical Task         | Status  |
+|------------------------|---------|
+| Error Handling         | &check; |
+| Github Repo            | &check; |
+| Documentation          | &check; |
+| Handel Sensitive Data  | &check; |
+| Continious Integration | &check; |
+| Continious Deployment  | &check; |
+| Additional Data Source | &cross; |
+| Testing                | &cross; |
 
 
 ____
 #### Technology Used
 1. StreamLit Framework For Making UI
-2. Python-DotEnv for Security
-3. GitHub and GitHub Action for CI-CD
-4. StreamLit Server for Deployment
-
+2. Python-DotEnv/ StreamLit Security for Security
+3. StreamLit Server for Deployment
 ____
 
 
