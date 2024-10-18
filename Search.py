@@ -11,14 +11,13 @@ API_KEY=st.secrets["API_KEY"]    #able to load file
 showMovie_Path=Path.cwd()/'pages'/'showMovie.py'
 
 
-
+st.header("Find Movie")
 with st.form("my_form"):
-    name=st.text_input("Name")
+    name=st.text_input("Movie Name")
     year=st.text_input("Year")
     type = st.selectbox(
-        "How would you like to be contacted?",
+        "Type",
         ("","movie", "series", "episode"),
-        placeholder=" fdg"
     )
     st.form_submit_button('Submit')
 
