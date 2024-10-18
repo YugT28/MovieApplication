@@ -62,6 +62,10 @@ streamlit run Search.py
 ```
 ____
 
+https://github.com/user-attachments/assets/d0bcad85-90af-4150-8576-110d01bc59fe
+
+
+
 #### Get API From 
 1. Visit: https://www.omdbapi.com/apikey.aspx.
 2. Add Data and Submit.
