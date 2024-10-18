@@ -23,7 +23,7 @@ ____
 | Testing                | &cross; |
 
 ____
-[Try.mp4](Try.mp4)
+https://github.com/user-attachments/assets/d0bcad85-90af-4150-8576-110d01bc59fe
 ____
 #### Technology Used
 1. StreamLit Framework For Making UI
@@ -62,7 +62,7 @@ streamlit run Search.py
 ```
 ____
 
-https://github.com/user-attachments/assets/d0bcad85-90af-4150-8576-110d01bc59fe
+
 
 
 
