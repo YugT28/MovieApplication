@@ -23,7 +23,7 @@ ____
 | Testing                | &cross; |
 
 ____
-![Try.gif](Try.gif)
+[Try.mp4](Try.mp4)
 ____
 #### Technology Used
 1. StreamLit Framework For Making UI
