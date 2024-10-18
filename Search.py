@@ -60,7 +60,6 @@ if name:
 
             st.session_state['imdb'] = {'imdb': imdb}
             st.page_link(showMovie_Path, label=f'Goto {title} Page', icon='🗺️')
-            st.page_link('.pages/showMovie.py', label=f'Goto {title} Page', icon='🗺️')
 
         except Exception as e:
             st.error(e)
