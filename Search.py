@@ -3,9 +3,9 @@ import requests
 import pandas as pd
 import os
 
-from dotenv import load_dotenv  #to interact with .env file
-load_dotenv()                   #make .env variables as enviornment variable
-API_KEY=os.getenv("API_KEY")    #able to load file
+# from dotenv import load_dotenv  #to interact with .env file
+# load_dotenv()                   #make .env variables as enviornment variable
+API_KEY=os.environ("API_KEY")    #able to load file
 
 
 
